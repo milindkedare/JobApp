@@ -30,33 +30,21 @@ cd JobApp
 
 Frontend Setup
 Navigate to the frontend directory:
-
-bash
-Copy
 cd frontend
+
 Install the dependencies:
-
-bash
-Copy
 npm install
-Start the development server:
 
-bash
-Copy
+Start the development server:
 npm run dev
+
+
 Backend Setup
 Navigate to the springboot-rest directory:
-
-bash
-Copy
 cd ../springboot-rest
+
 Build the project using Maven:
-
-bash
-Copy
 ./mvnw clean install
-Run the Spring Boot application:
 
-bash
-Copy
+Run the Spring Boot application:
 ./mvnw spring-boot:run
