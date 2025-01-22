@@ -18,12 +18,45 @@ Before you begin, ensure you have the following installed:
 - [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (for the backend)
 - [Git](https://git-scm.com/)
 
-## Getting Started
+# Getting Started
 
 To get a local copy up and running, follow these steps.
 
-### Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/milindkedare/JobApp.git
-cd JobApp 
+cd JobApp
+
+Frontend Setup
+Navigate to the frontend directory:
+
+bash
+Copy
+cd frontend
+Install the dependencies:
+
+bash
+Copy
+npm install
+Start the development server:
+
+bash
+Copy
+npm run dev
+Backend Setup
+Navigate to the springboot-rest directory:
+
+bash
+Copy
+cd ../springboot-rest
+Build the project using Maven:
+
+bash
+Copy
+./mvnw clean install
+Run the Spring Boot application:
+
+bash
+Copy
+./mvnw spring-boot:run
